@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="Logincss.css">
+    <meta charset="utf-8">
+    <title>LOUISA_Login</title>
+</head>
+
+<body>
+    <div class="panel">
+        <div class="img"></div>
+        <div class=title_text>
+            <p>LOUISA COFFEE<br>產銷資訊系統</p>
+        </div>
+        <div class="form_space">
+            <!-- action="login.php"，這代表當按下登入按鈕之後，會將資料傳送到 login.php 這支程式 -->
+            <form class="login-form" style="text-align: center;" method="post" action="login.php" novalidate>
+                <p style="font-weight: bold; text-align: center; color: white; font-size: 40px;">管理者登入</p>
+                <!--輸入框-->
+                <div class="input-content">
+                    <div>
+                        <!-- name="_" 是用在login.php時傳參數的名稱 -->
+                        <input type="text" style="padding: 10px;" autocomplete="off" placeholder="ACCOUNT"
+                            name="account" required />
+                    </div>
+                    <div>
+                        <input type="password" style="padding: 10px; font-size: 20px;" autocomplete="off"
+                            placeholder="PASSWORD" name="password" required />
+                    </div>
+                </div>
+                <!--登入按鈕-->
+                <button type="submit" class="enter-btn"> 登入 </button>
+            </form>
+        </div>
+    </div>
+</body>>
+
+</html>>

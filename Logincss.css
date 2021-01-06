@@ -1,0 +1,91 @@
+body{
+    background-color : #523404;
+    font-family: Fira Sans Extra Condensed;
+}
+
+.panel{
+    border:1px solid #000;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0;
+    width:1000px;
+    height:800px;
+    background: rgba(255, 151, 75, 0.83);
+    position:relative;
+}
+
+.img{
+    margin-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+    background: url(https://upload.wikimedia.org/wikipedia/zh/f/f1/Louisa_Coffee_logo.jpg) center;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+
+}
+
+.title_text{
+    color:white;
+    margin-top:1px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.form_space{
+    background: #FFC895;
+    border: 2px solid #000000;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:3%;
+    width:750px;
+    height:400px;
+}
+
+.login_form{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.input-content {
+    width: 100%;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input-content input {
+    width: 600px;
+    height: 50px;
+    border: 1px solid #dad9d6;
+    background: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    border: 2px solid #000000;
+}
+
+.enter-btn {
+    width: 630px;
+    height: 80px;
+    color: #782400;
+    background:#F8EAC6;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    border: 0px;
+    margin-top: 8%;
+    border: 2px solid #000000;
+}
+
+    .enter-btn:hover {
+        cursor:pointer;
+        background: #1db5c9;
+    }

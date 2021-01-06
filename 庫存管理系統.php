@@ -39,7 +39,7 @@
 			<button class="button" onclick="openpage1()">庫存狀態</button>
 			<button class="button" onclick="openpage2()">物料訂購</button>
 			<button class="button" onclick="openpage3()">訂單管理</button>
-			<button class="button" onclick="window.location.href='首頁.php';"style="float: right;padding: 12px 28px;font-size: 14px">回首頁</button>
+			<button class="button" onclick="window.location.href='function.html';"style="float: right;padding: 12px 28px;font-size: 14px">回首頁</button>
 		</div>
 		<iframe id="welc" src="welcome.php" style="width: 100% ;height:480px"></iframe>
 		<script>
