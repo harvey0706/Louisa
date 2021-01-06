@@ -167,7 +167,6 @@ $result = mysqli_query($con, $sql.' LIMIT '.$start.', '.$per) or die("Error"); /
         <div id="myDropdown" class="dropdown-content">
           <button onclick="window.location.href='顧客個人分析.php'">顧客個人分析</button>
           <button onclick="window.location.href='數據圖表分析.php'">數據圖表分析</button>
-          <button onclick="window.location.href='消費活動分析.php'">消費活動分析</button>
 				</div>
 			</div>
 			<button class="button" onclick="window.location.href='function.html';"style="float: right;padding: 12px 28px;font-size: 14px">回首頁</button>
@@ -247,6 +246,6 @@ $result = mysqli_query($con, $sql.' LIMIT '.$start.', '.$per) or die("Error"); /
 			function myFunction() {
       document.getElementById("myDropdown").classList.toggle("show");
       }
-    </script>>
+    </script>
 	</body>
 </html>

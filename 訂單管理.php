@@ -133,7 +133,7 @@ $result = mysqli_query($con, $sql.' LIMIT '.$start.', '.$per) or die("Error"); /
 				<!-- 如果超出範圍的話會變null，因此要設限制式查看array抓出來的東西是否是null -->
 				<?php if(isset($rs[0]) && isset($rs[1]) && isset($rs[2]) && isset($rs[3]) && isset($rs[4]) && isset($rs[5]) ){?>
 					<?php $orderID = $rs[0];?>
-					<td><a href="個別消費行為.php?MemberID=<?php echo $rs[0];?>"><?php echo $rs[0];?></a></td>
+					<td><?php echo $rs[0];?></td>
 					<td><?php echo $rs[1];?></td>
 					<td><?php echo $rs[2];?></td>
 					<td><?php echo $rs[3];?></td>
